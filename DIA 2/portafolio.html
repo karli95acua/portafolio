@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloportafolio.css">
+</head>
+<body>
+    <h1>Karli Acuña</h1>
+    <h2>Empresaria</h2>
+    <h3>Desarrolladora en proceso</h3>
+    <img src="./foto-portafolio.jpg" alt="foto-portafolio" class="fotoperfil">
+    <div>
+        <img class="redessociales" src="./GitHub-Mark.png" alt="GitHub">
+        <a href="https://github.com/karli95acua?tab=repositories" class="linkGitHub">Mi GitHub</a>
+
+        <img class="redessociales" src="./logo-linkedin.png" alt="Linkedin">
+        <a href="https://www.linkedin.com/in/karli-acuna/" class="linkLinkedin">Mi Linkedin</a>
+
+        <img class="redessociales" src="./Gmail_icon.png" alt="gmail">
+        <a href="mailto:karli.a.mella@gmail.com" class="correo">Mi correo</a>
+    </div>
+    <div>
+        <h4> Tecnologías que manejo >>>> </h4>
+    </div>
+    <div>
+        <table class="tecnoTabla">
+            <thead>
+                <tr class="renglon">
+                    <th>Front-End</th>
+                    <th>Back-End</th>
+                    <th>DataBase</th>
+                    <th>Otras</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="renglon">
+                    <td>HTML</td>
+                    <td>Python</td>
+                    <td>MySQL</td>
+                    <td>Excel</td>
+                </tr>
+                <tr class="renglon">
+                    <td>Javascript</td>
+                    <td>Ruby</td>
+                    <td>MongoDB</td>
+                    <td>PowerQuery</td>
+                </tr>
+                <tr class="renglon">
+                    <td>CSS</td>
+                    <td>PHP</td>
+                    <td>SQL Server</td>
+                    <td>SAP</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <p>>>>>Contáctame</p>
+    </div>
+    <form action="#">
+        <div class="name">
+            <label for="name">Nombre Completo</label>
+            <input type="text" name="nombre" id="nombreCompleto" class="name">
+        </div>
+        <div class="mensajeCont">
+            <label for="mensaje">Escribe un mensaje y te contactaré</label>
+            <textarea rows="10" cols="30" name="mensaje"></textarea>
+        </div>
+        <div class="motive">
+            <label for="opciones">Motivo de contacto?</label>
+            <select id="options" name="opciones" class="opciones">
+                <option value="Apoyo">Proyecto colaborativo</option>
+                <option value="Mentoria">Apoyo y mentoría</option>
+                <option value="Servicios">Cotización servicios
+                    reelance</option>
+                <option value="Oferta">Oferta Laboral</option>
+            </select>
+        </div>
+        <div class="button">
+            <input type="submit" class="button" value="ENVIAR" name="ENVIAR">
+        </div>
+    </form>
+</body>
+</html>

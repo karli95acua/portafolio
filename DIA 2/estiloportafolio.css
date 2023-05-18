@@ -1,0 +1,150 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fotoperfil{
+    margin-left: 35px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    width: 200px;
+    height: 180px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-left: 30px;
+    font-weight: bolder;
+    text-shadow: 2px 2px darkslateblue;
+    font-size:50px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-left: 35px;
+    font-style: italic;
+    font-size: 20px;
+    color: darkslateblue;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-left: 35px;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.redessociales {
+    width: 30px;
+    height: 25px;
+    margin-left: 25px;
+    padding: 1px;
+}
+
+.linkGitHub {
+    font-size: small;
+    color:darkslateblue;
+}
+
+.linkLinkedin{
+    font-size: small;
+    color:darkslateblue;
+}
+
+.correo {
+    font-size: small;
+    color:darkslateblue;
+}
+
+h4 {
+    margin-top:25px;
+    margin-left: 30px;
+    text-shadow: 1px 1px darkslateblue;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.tecnoTabla {
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+th {
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px darkslateblue;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+td {
+    text-align: center;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+p {
+    margin-left: 35px;
+    font-size: 20px;
+    text-shadow: 1px 1px darkslateblue;
+    font-weight: bolder;
+}
+
+.name {
+    margin-left:35px;
+    font-weight: bolder;
+}
+
+.email {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+
+.mensajeCont {
+    align-items:normal;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 50%;
+    padding: 5px;
+    font-weight: bolder;
+    display:grid;
+}
+
+.textarea {
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: auto;
+    width: 50%;
+    display: block;
+    
+
+}
+.opciones {
+    margin-left: 30px;
+    width: 30%;
+    text-align:center;
+    font-weight: bolder;
+}
+
+.motive {
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    margin-bottom: 3px;
+}
+
+.button {
+    margin-top: 3px; 
+    display: block;
+    align-items: end;
+    margin-left: 35px;
+}
